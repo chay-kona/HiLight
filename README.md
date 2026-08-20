@@ -48,3 +48,8 @@ The next milestone is to implement the Shizuku transport and Android lights-serv
 ## Privacy direction
 
 The app currently requests no internet permission. App rules are stored locally. Notification contents are not persisted.
+
+## Automatic APK release
+
+Pushing to `main` runs `.github/workflows/build-apk.yml`. A successful run publishes
+`HiLight-Control-debug.apk` as a GitHub prerelease (`build-<run number>`) and also stores it as an Actions artifact.

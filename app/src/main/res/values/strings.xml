@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HiLight Control</string>
+    <string name="notification_listener_label">HiLight notification rules</string>
+</resources>
